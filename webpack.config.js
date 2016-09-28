@@ -63,6 +63,8 @@ const lib = merge(common, {
 		'react-color.amd': "react-color",
 		'velocity-react.amd': 'velocity-react',
 		'draft-js-export-html.amd': 'draft-js-export-html',
+		'webrtc-adapter.amd': 'webrtc-adapter',
+		'debug.amd': 'debug',
 	},	
 	plugins: [
 		new webpack.optimize.UglifyJsPlugin({minimize: true, compress: {warnings: false, dead_code: true}}),
